@@ -9,9 +9,8 @@
 </head>
     <body>
         @yield('content')
-    {{ config('app.name') }}
     <footer>
-        <p>&copy; Copyright {{date('Y')}} &middot; <a href='/about-us'>À propos</a></p>
+        <p>&copy; Copyright {{date('Y')}} &middot; <a href="{{ route('about') }}">À propos</a></p>
     </footer>
 </body>
 
