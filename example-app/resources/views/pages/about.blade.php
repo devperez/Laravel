@@ -1,20 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+@extends('base')
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>About us | Hello City</title>
-</head>
+@section('content')
     <p>Built with &hearts; by David PEREZ.</p>
 
-    <a href='/'>Revenir à la page d'accueil</a>
-
-    
-    <footer>
-        <p>&copy; Copyright {{date('Y')}}</p>
-    </footer>
-</body>
-
-</html>
+    <p><a href='/'>Revenir à la page d'accueil</a></p>
+@endsection
