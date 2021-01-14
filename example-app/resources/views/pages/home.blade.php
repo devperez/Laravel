@@ -12,7 +12,9 @@
     <h1>Bonjour de Montcuq !</h1>
 
     <p>Il est exactement {{date('H:i')}}.</p>
-    <footer>&copy; Copyright {{date('Y')}} &middot; <a href='/about-us'>À propos</a>
+    <footer>
+        <p>&copy; Copyright {{date('Y')}} &middot; <a href='/about-us'>À propos</a></p>
+    </footer>
 </body>
 
 </html>
