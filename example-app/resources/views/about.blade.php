@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Hello City</title>
+    <title>About us | Hello City</title>
 </head>
+    <p>Built with &hearts; by David PEREZ.</p>
 
-<body>
-    <h1>Bonjour de Montcuq !</h1>
+    <a href='/'>Revenir à la page d'accueil</a>
 
-    <p>Il est exactement {{date('H:i')}}.</p>
+    
     <footer>&copy; Copyright {{date('Y')}} &middot; <a href='/about-us'>À propos</a>
 </body>
 
